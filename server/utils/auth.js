@@ -4,6 +4,8 @@ const jwt = require('jsonwebtoken');
 const secret = 'mysecretsshhhhh';
 const expiration = '2h';
 
+// Apollo Server Authentication
+
 module.exports = {
   // function for our authenticated routes
   authMiddleware: function (req, res, next) {
